@@ -1,3 +1,3 @@
 # Next.js Ignition
 
-🚀 Next.js - my personal boilerplate for fast, consistent, and modern
+My personal boilerplate for fast, consistent, and modern
