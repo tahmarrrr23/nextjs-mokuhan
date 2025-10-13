@@ -1,10 +1,17 @@
-.root {
-  padding: 0 2rem;
+.container {
+  padding: 0 8rem;
 }
 
-.header {
+.heading {
   font-size: 4rem;
   font-weight: 900;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .cardList {
