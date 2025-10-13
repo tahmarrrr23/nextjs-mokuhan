@@ -1,0 +1,13 @@
+.root {
+  padding: 0 2rem;
+}
+
+.header {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.cardList {
+  display: flex;
+  gap: 1rem;
+}
