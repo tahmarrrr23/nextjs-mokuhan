@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-ignition",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "biome format --write",
+    "lint": "biome check",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19",
+    "react-dom": "19"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
+    "@types/node": "^24.7.2",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
