@@ -1,7 +1,6 @@
 {
   "name": "nextjs-ignition",
   "private": true,
-  "description": "My personal boilerplate for fast, consistent, and modern",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
