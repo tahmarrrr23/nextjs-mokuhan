@@ -7,7 +7,7 @@ export const HomePage = () => {
     <div className={styles.container}>
       <h1 className={styles.heading}>Next.js Ignition</h1>
       <Image
-        src="/top.png"
+        src="/logo.png"
         alt="Next.js Logo"
         width={500}
         height={500}
