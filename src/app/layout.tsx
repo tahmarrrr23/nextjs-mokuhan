@@ -4,7 +4,8 @@ import { Roboto } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Next.js Ignition",
-  description: "My personal boilerplate for fast, consistent, and modern",
+  description:
+    "My personal Next.js boilerplate for fast, consistent, and modern web apps.",
 };
 
 const globalFont = Roboto({
