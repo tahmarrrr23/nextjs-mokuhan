@@ -1,6 +1,11 @@
+:root {
+  --foreground: #c5c6c7;
+  --background: #0b0c10;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #0b0c10;
-  color: #c5c6c7;
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
