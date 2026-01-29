@@ -1,3 +1,5 @@
+@import "normalize.css";
+
 :root {
   --foreground: #c5c6c7;
   --background: #0b0c10;
@@ -6,6 +8,4 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
