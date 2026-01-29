@@ -1,4 +1,5 @@
 import { HomePage } from "@/components/page/home-page";
+import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <Header environment={environment} />
       <HomePage />
+      <Footer />
     </>
   );
 }
