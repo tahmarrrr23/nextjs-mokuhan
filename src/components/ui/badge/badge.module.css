@@ -1,0 +1,9 @@
+.badge {
+  border: 1px solid #1f2833;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
