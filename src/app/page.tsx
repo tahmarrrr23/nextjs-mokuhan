@@ -1,6 +1,6 @@
-import { HomePage } from "@/components/page/home-page";
-import { Footer } from "@/components/ui/footer";
-import { Header } from "@/components/ui/header";
+import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { HomePage } from "@/components/home-page";
 
 export default function Home() {
   const environment = process.env.NODE_ENV;
