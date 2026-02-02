@@ -1,11 +1,18 @@
 @import "normalize.css";
 
 :root {
-  --foreground: #c5c6c7;
-  --background: #0b0c10;
+  --color-background: #0b0c10;
+  --color-text-primary: #c5c6c7;
+  --color-border: #1f2833;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--color-text-primary);
+  background: var(--color-background);
 }

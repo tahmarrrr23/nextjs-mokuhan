@@ -1,9 +1,7 @@
 .header {
   height: 80px;
   width: 100%;
-  background-color: var(--background);
-  border-bottom: 1px solid #1f2833;
-  box-sizing: border-box;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .container {
