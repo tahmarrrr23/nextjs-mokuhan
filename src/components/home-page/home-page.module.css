@@ -1,13 +1,13 @@
 .page {
   max-width: 1000px;
-  margin: 0 auto;
   height: calc(100vh - 160px);
+  margin: 0 auto;
 }
 
 .container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 

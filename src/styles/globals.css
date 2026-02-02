@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import url("normalize.css");
 
 :root {
   --color-background: #0b0c10;
