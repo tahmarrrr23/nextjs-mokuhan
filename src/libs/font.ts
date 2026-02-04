@@ -1,5 +1,5 @@
-import { Oswald } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
 
-export const globalFont = Oswald({
+export const globalFont = Noto_Sans_JP({
   subsets: ["latin"],
 });
