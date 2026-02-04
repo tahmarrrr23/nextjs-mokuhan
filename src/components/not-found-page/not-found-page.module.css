@@ -1,0 +1,21 @@
+.root {
+  max-width: 1000px;
+  height: calc(100vh - 160px);
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.message {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+}
