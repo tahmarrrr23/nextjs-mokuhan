@@ -5,7 +5,7 @@ export const HomePage = () => {
     <main className={styles.page}>
       <div className={styles.container}>
         <div className={styles.about}>
-          <p>Ignition — a single, silent spark that sets tomorrow in motion.</p>
+          <p>Mokuhan is a traditional woodblock printing process, focused on carving, ink, and manual printing.</p>
         </div>
       </div>
     </main>

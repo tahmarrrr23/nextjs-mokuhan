@@ -11,7 +11,7 @@ export const Header = ({ environment }: HeaderProps) => {
     <header className={styles.header}>
       <div className={styles.container}>
         <h1 className={styles.logo}>
-          <Link href="/">Next.js Ignition</Link>
+          <Link href="/">Next.js Mokuhan</Link>
         </h1>
         <Badge>{environment}</Badge>
       </div>

@@ -1,3 +1,3 @@
-# Next.js Ignition
+# nextjs-mokuhan
 
-My personal Next.js boilerplate for fast, consistent, and modern web apps.
+Time to pump out Next.js projects.

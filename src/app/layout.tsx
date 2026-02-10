@@ -6,11 +6,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Next.js Ignition",
-    template: "%s | Next.js Ignition",
+    default: "Next.js Mokuhan",
+    template: "%s | Next.js Mokuhan",
   },
   description:
-    "My personal Next.js boilerplate for fast, consistent, and modern web apps.",
+    "Mokuhan is a traditional woodblock printing process, focused on carving, ink, and manual printing.",
 };
 
 export default function RootLayout({

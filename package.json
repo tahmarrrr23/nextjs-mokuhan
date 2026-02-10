@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-ignition",
+  "name": "nextjs-mokuhan",
   "private": true,
   "scripts": {
     "build": "next build",
