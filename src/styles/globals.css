@@ -1,15 +1,9 @@
-@import url("normalize.css");
+@import url("modern-normalize/modern-normalize.css");
 
 :root {
   --color-background: #0b0c10;
   --color-text-primary: #c5c6c7;
   --color-border: #1f2833;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 
 body {
