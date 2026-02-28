@@ -7,8 +7,8 @@ export const Badge = (props: BadgeProps) => {
   const { children, className = "", ...rest } = props;
 
   return (
-    <div className={`${styles.badge} ${className}`} {...rest}>
-      <div className={styles.container}>{children}</div>
-    </div>
+    <span className={`${styles.badge} ${className}`} {...rest}>
+      {children}
+    </span>
   );
 };
