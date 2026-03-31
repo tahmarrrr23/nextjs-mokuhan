@@ -35,19 +35,19 @@ importers:
         version: 3.0.1
       stylelint:
         specifier: ^17.6.0
-        version: 17.6.0(typescript@6.0.2)
+        version: 17.6.0(typescript@5.9.3)
       stylelint-config-clean-order:
         specifier: ^8.0.1
-        version: 8.0.1(stylelint-order@8.1.1(stylelint@17.6.0(typescript@6.0.2)))(stylelint@17.6.0(typescript@6.0.2))
+        version: 8.0.1(stylelint-order@8.1.1(stylelint@17.6.0(typescript@5.9.3)))(stylelint@17.6.0(typescript@5.9.3))
       stylelint-config-standard:
         specifier: ^40.0.0
-        version: 40.0.0(stylelint@17.6.0(typescript@6.0.2))
+        version: 40.0.0(stylelint@17.6.0(typescript@5.9.3))
       stylelint-order:
         specifier: ^8.1.1
-        version: 8.1.1(stylelint@17.6.0(typescript@6.0.2))
+        version: 8.1.1(stylelint@17.6.0(typescript@5.9.3))
       typescript:
-        specifier: ^6.0.2
-        version: 6.0.2
+        specifier: '5'
+        version: 5.9.3
 
 packages:
 
@@ -894,8 +894,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@6.0.2:
-    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1215,14 +1215,14 @@ snapshots:
 
   colord@2.9.3: {}
 
-  cosmiconfig@9.0.1(typescript@6.0.2):
+  cosmiconfig@9.0.1(typescript@5.9.3):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.1
       js-yaml: 4.1.1
       parse-json: 5.2.0
     optionalDependencies:
-      typescript: 6.0.2
+      typescript: 5.9.3
 
   css-functions-list@3.3.3: {}
 
@@ -1555,27 +1555,27 @@ snapshots:
       client-only: 0.0.1
       react: 19.2.4
 
-  stylelint-config-clean-order@8.0.1(stylelint-order@8.1.1(stylelint@17.6.0(typescript@6.0.2)))(stylelint@17.6.0(typescript@6.0.2)):
+  stylelint-config-clean-order@8.0.1(stylelint-order@8.1.1(stylelint@17.6.0(typescript@5.9.3)))(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.6.0(typescript@6.0.2)
-      stylelint-order: 8.1.1(stylelint@17.6.0(typescript@6.0.2))
+      stylelint: 17.6.0(typescript@5.9.3)
+      stylelint-order: 8.1.1(stylelint@17.6.0(typescript@5.9.3))
 
-  stylelint-config-recommended@18.0.0(stylelint@17.6.0(typescript@6.0.2)):
+  stylelint-config-recommended@18.0.0(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.6.0(typescript@6.0.2)
+      stylelint: 17.6.0(typescript@5.9.3)
 
-  stylelint-config-standard@40.0.0(stylelint@17.6.0(typescript@6.0.2)):
+  stylelint-config-standard@40.0.0(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.6.0(typescript@6.0.2)
-      stylelint-config-recommended: 18.0.0(stylelint@17.6.0(typescript@6.0.2))
+      stylelint: 17.6.0(typescript@5.9.3)
+      stylelint-config-recommended: 18.0.0(stylelint@17.6.0(typescript@5.9.3))
 
-  stylelint-order@8.1.1(stylelint@17.6.0(typescript@6.0.2)):
+  stylelint-order@8.1.1(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
       postcss: 8.5.8
       postcss-sorting: 10.0.0(postcss@8.5.8)
-      stylelint: 17.6.0(typescript@6.0.2)
+      stylelint: 17.6.0(typescript@5.9.3)
 
-  stylelint@17.6.0(typescript@6.0.2):
+  stylelint@17.6.0(typescript@5.9.3):
     dependencies:
       '@csstools/css-calc': 3.1.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -1585,7 +1585,7 @@ snapshots:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
       colord: 2.9.3
-      cosmiconfig: 9.0.1(typescript@6.0.2)
+      cosmiconfig: 9.0.1(typescript@5.9.3)
       css-functions-list: 3.3.3
       css-tree: 3.2.1
       debug: 4.4.3
@@ -1640,7 +1640,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  typescript@6.0.2: {}
+  typescript@5.9.3: {}
 
   undici-types@7.16.0: {}
 
