@@ -9,21 +9,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.1.6",
+    "next": "16.2.1",
     "react": "19",
     "react-dom": "19"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.4",
+    "@biomejs/biome": "^2.4.10",
     "@types/node": "24",
     "@types/react": "19",
     "@types/react-dom": "19",
     "modern-normalize": "^3.0.1",
-    "stylelint": "^17.3.0",
+    "stylelint": "^17.6.0",
     "stylelint-config-clean-order": "^8.0.1",
     "stylelint-config-standard": "^40.0.0",
-    "stylelint-order": "^7.0.1",
-    "typescript": "^5.9.3"
+    "stylelint-order": "^8.1.1",
+    "typescript": "^6.0.2"
   },
   "engines": {
     "node": "24"
