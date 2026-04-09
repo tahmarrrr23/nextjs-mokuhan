@@ -5,7 +5,10 @@ export const HomePage = () => {
     <main className={styles.page}>
       <div className={styles.container}>
         <div className={styles.about}>
-          <p>Mokuhan is a traditional woodblock printing process, focused on carving, ink, and manual printing.</p>
+          <p>
+            Mokuhan is a traditional woodblock printing process, focused on
+            carving, ink, and manual printing.
+          </p>
         </div>
       </div>
     </main>
