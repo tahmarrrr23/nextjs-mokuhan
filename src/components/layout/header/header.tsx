@@ -5,11 +5,7 @@ export interface HeaderProps {
 export const Header = ({ environment }: HeaderProps) => {
   return (
     <header>
-      <h1>Next.js Mokuhan</h1>
-      <p>
-        Environment: <code>{environment}</code>
-      </p>
-      <hr />
+      <h1>Next.js Mokuhan{` (${environment})`}</h1>
     </header>
   );
 };

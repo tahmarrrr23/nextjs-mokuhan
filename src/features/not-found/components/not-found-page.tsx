@@ -1,10 +1,7 @@
 export const NotFoundPage = () => {
   return (
-    <main>
-      <section>
-        <h1>404</h1>
-        <p>Page not found</p>
-      </section>
-    </main>
+    <section>
+      <p>Page not found</p>
+    </section>
   );
 };

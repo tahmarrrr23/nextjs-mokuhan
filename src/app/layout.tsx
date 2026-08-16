@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Footer } from "@/components/layout/footer/footer";
 import { Header } from "@/components/layout/header/header";
 import { globalFont } from "@/styles/fonts";
 
@@ -21,8 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={globalFont.className}>
         <Header environment={process.env.NODE_ENV} />
-        {children}
-        <Footer />
+        <main>{children}</main>
       </body>
     </html>
   );
