@@ -2,11 +2,11 @@
   "name": "nextjs-mokuhan",
   "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
-    "format": "biome format --write",
-    "lint": "biome check && stylelint '**/*.css'",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
   },
   "dependencies": {
     "next": "16.3.1",
@@ -19,10 +19,6 @@
     "@types/react": "19",
     "@types/react-dom": "19",
     "modern-normalize": "^3.0.1",
-    "stylelint": "^17.14.1",
-    "stylelint-config-clean-order": "^10.0.0",
-    "stylelint-config-standard": "^40.0.0",
-    "stylelint-order": "^8.1.1",
     "typescript": "5"
   },
   "engines": {
