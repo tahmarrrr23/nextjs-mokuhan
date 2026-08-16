@@ -12,14 +12,14 @@ importers:
         specifier: 16.3.1
         version: 16.3.1(@types/node@24.13.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '19'
+        specifier: 19.2.8
         version: 19.2.8
       react-dom:
-        specifier: '19'
+        specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.5.8
+        specifier: 2.5.8
         version: 2.5.8
       '@types/node':
         specifier: '24'
