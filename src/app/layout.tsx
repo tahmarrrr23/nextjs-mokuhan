@@ -1,6 +1,5 @@
-import { globalFont } from "@/styles/fonts";
-import "@/styles/globals.css";
 import type { Metadata } from "next";
+import { globalFont } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: {
