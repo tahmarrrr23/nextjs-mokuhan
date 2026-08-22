@@ -11,7 +11,7 @@ export default function GlobalError({
   return (
     <html lang="en">
       <body className={globalFont.className}>
-        <title>Something went wrong | Next.js Mokuhan</title>
+        <title>Something went wrong | Mokuhan Next.js</title>
         <main>
           <section>
             <p>Something went wrong</p>

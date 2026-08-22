@@ -4,8 +4,8 @@ import { globalFont } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: {
-    default: "Next.js Mokuhan",
-    template: "%s | Next.js Mokuhan",
+    default: "Mokuhan Next.js",
+    template: "%s | Mokuhan Next.js",
   },
   description:
     "Mokuhan is a traditional woodblock printing process, focused on carving, ink, and manual printing.",
